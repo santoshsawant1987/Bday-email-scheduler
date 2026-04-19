@@ -10,14 +10,16 @@ from dotenv import load_dotenv, find_dotenv
 load_dotenv(find_dotenv()) # 👈 this loads your .env file
 # ── Data ────────────────────────────────────────────────────────────────────
 data = [
-    ["Sneha",   "1990-03-25"],
+    ["Sneha",   "1992-09-07"],
     ["Malan",   "1985-07-15"],
-    ["Amrut",   "1992-04-19"],
-    ["Santosh", "1987-11-30"],
-    ["Rahul",   "1995-04-20"],
-    ["Priya",   "1993-08-05"],
-    ["Vikram",  "1988-04-19"],
-    ["Neha",    "1991-12-01"],
+    ["Amrut",   "1991-02-13"],
+    ["Santosh", "1987-09-22"],
+    ["Akash",   "2006-12-02"],
+    ["Priyanka",   "1994-08-18"],
+    ["Dinesh",  "1994-09-25"],
+    ["Shriyansh",  "2025-03-15"],
+    ["Jyoti",    "1983-06-02"],
+    ["Varsha",    "1982-02-18"],
 ]
 
 columns = ["Name", "Birthday"]
